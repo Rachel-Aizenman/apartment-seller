@@ -14,3 +14,5 @@ const findRelevantApts = function (address, minPrice, maxPrice, minRooms, maxRoo
     immediate = !immediate[0].checked
     return immediate ? relevantApts : relevantApts.filter(a => (a.immediate)) 
 }
+
+// immediate = immmediate[0]

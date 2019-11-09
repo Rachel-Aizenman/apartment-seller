@@ -1,0 +1,14 @@
+<script id="apartmentsList" type="text/x-handlebars-template">
+    {{#each apartment}}
+    <div class="result">
+        <img src={{img}} alt="">
+        <p>Address: {{address}} <hr> Rooms: {{rooms}} </p>
+        <h1>Price: {{price}}</h1>
+        {{#if immediate}}
+        <p>Contact Details: {{contactDetails}}</p>
+        {{/if}}
+
+    </div>
+   
+    {{/each}}
+</script>
